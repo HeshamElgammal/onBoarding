@@ -18,7 +18,6 @@ const App = () => {
   }
 
   useEffect(async () => {
-    // AsyncStorage.clear()
     await getData()
   }, [])
 
